@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_decimal_counter_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_decimal_counter" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="4000000001fs"></ZoomEndTime>
+      <Cursor1Time time="1820030000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="158"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="27" />
+   <wvobject fp_name="/tb_decimal_counter/clk_100M" type="logic">
+      <obj_property name="ElementShortName">clk_100M</obj_property>
+      <obj_property name="ObjectShortName">clk_100M</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_decimal_counter/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_decimal_counter/top_count" type="array">
+      <obj_property name="ElementShortName">top_count[3:0]</obj_property>
+      <obj_property name="ObjectShortName">top_count[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_decimal_counter/seven_seg" type="array">
+      <obj_property name="ElementShortName">seven_seg[6:0]</obj_property>
+      <obj_property name="ObjectShortName">seven_seg[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_decimal_counter/anode" type="array">
+      <obj_property name="ElementShortName">anode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">anode[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_decimal_counter/led" type="logic">
+      <obj_property name="ElementShortName">led</obj_property>
+      <obj_property name="ObjectShortName">led</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider44">
+      <obj_property name="label">q:</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_decimal_counter/U1/q_LSD" type="other">
+      <obj_property name="ElementShortName">q_LSD</obj_property>
+      <obj_property name="ObjectShortName">q_LSD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_decimal_counter/U1/q_ISD" type="other">
+      <obj_property name="ElementShortName">q_ISD</obj_property>
+      <obj_property name="ObjectShortName">q_ISD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_decimal_counter/U1/q_MSD" type="other">
+      <obj_property name="ElementShortName">q_MSD</obj_property>
+      <obj_property name="ObjectShortName">q_MSD</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider891">
+   </wvobject>
+   <wvobject fp_name="/tb_decimal_counter/U1/clk_5" type="logic">
+      <obj_property name="ElementShortName">clk_5</obj_property>
+      <obj_property name="ObjectShortName">clk_5</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_decimal_counter/U1/clk_500" type="logic">
+      <obj_property name="ElementShortName">clk_500</obj_property>
+      <obj_property name="ObjectShortName">clk_500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_decimal_counter/U1/sig_anode" type="array">
+      <obj_property name="ElementShortName">sig_anode[2:0]</obj_property>
+      <obj_property name="ObjectShortName">sig_anode[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider892">
+   </wvobject>
+   <wvobject fp_name="/tb_decimal_counter/U1/clr_L" type="logic">
+      <obj_property name="ElementShortName">clr_L</obj_property>
+      <obj_property name="ObjectShortName">clr_L</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_decimal_counter/U1/clr_I" type="logic">
+      <obj_property name="ElementShortName">clr_I</obj_property>
+      <obj_property name="ObjectShortName">clr_I</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_decimal_counter/U1/clr_M" type="logic">
+      <obj_property name="ElementShortName">clr_M</obj_property>
+      <obj_property name="ObjectShortName">clr_M</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_decimal_counter/U1/top_L" type="logic">
+      <obj_property name="ElementShortName">top_L</obj_property>
+      <obj_property name="ObjectShortName">top_L</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_decimal_counter/U1/top_I" type="logic">
+      <obj_property name="ElementShortName">top_I</obj_property>
+      <obj_property name="ObjectShortName">top_I</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_decimal_counter/U1/top_M" type="logic">
+      <obj_property name="ElementShortName">top_M</obj_property>
+      <obj_property name="ObjectShortName">top_M</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider893">
+   </wvobject>
+   <wvobject fp_name="/tb_decimal_counter/U1/en_I" type="logic">
+      <obj_property name="ElementShortName">en_I</obj_property>
+      <obj_property name="ObjectShortName">en_I</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_decimal_counter/U1/en_M" type="logic">
+      <obj_property name="ElementShortName">en_M</obj_property>
+      <obj_property name="ObjectShortName">en_M</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_decimal_counter/U1/reach_9_L" type="logic">
+      <obj_property name="ElementShortName">reach_9_L</obj_property>
+      <obj_property name="ObjectShortName">reach_9_L</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_decimal_counter/U1/reach_9_I" type="logic">
+      <obj_property name="ElementShortName">reach_9_I</obj_property>
+      <obj_property name="ObjectShortName">reach_9_I</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_decimal_counter/U1/reach_9_M" type="logic">
+      <obj_property name="ElementShortName">reach_9_M</obj_property>
+      <obj_property name="ObjectShortName">reach_9_M</obj_property>
+   </wvobject>
+</wave_config>
